@@ -1,0 +1,30 @@
+//==================================================================
+// Content Partial
+// Styles for content layout.
+//==================================================================
+
+// Content
+// =================================================================
+.content-wrapper {
+	padding: 0 5%;
+	transition: all .5s ease;	
+	@include media($desktop) {
+		padding: 0 0 60px;	
+		transition: all .5s ease;	
+	}
+}
+
+.alignleft {
+	float: left;
+	margin: 20px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 20px auto;
+}
+
+.alignright {
+	float: right;
+	margin: 20px;
+}

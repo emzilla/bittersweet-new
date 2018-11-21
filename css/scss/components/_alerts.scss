@@ -1,0 +1,30 @@
+//==================================================================
+// Alerts Partial
+// Styles that help communicate success, warnings, failures, etc.
+//==================================================================
+
+// Alerts
+// =================================================================
+.alert {
+	background: $brand_secondary;
+	color: $reverse_text_color;
+	text-align: center;
+
+	.alert-content {
+		font-size: 20px;
+		padding: 12px;
+
+		a {
+			color: $reverse_text_color;
+			text-decoration: underline;
+
+			&:hover {
+				color: $reverse_text_color;
+			}
+		}
+
+		p {
+			margin: 0;
+		}
+	}
+}

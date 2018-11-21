@@ -1,0 +1,26 @@
+//==================================================================
+// Pages Partial
+// Styles for single pages.
+//==================================================================
+
+// Pages
+// =================================================================
+
+.entry-title {
+	text-align: center;
+	padding-top: 20px;
+	margin: 0;
+
+	@include media($desktop) {
+		font-size: rem(70px);	
+	}
+}
+
+.entry-content {
+	margin: 40px 0px;
+	@include clearfix;
+	word-wrap: break-word;
+	@include media($desktop) {
+		margin: 40px 80px;
+	}
+}

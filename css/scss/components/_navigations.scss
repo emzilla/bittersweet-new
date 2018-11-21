@@ -1,0 +1,168 @@
+//==================================================================
+// Navigations Partial
+// Styles for various types of navigation componenets.
+//==================================================================
+
+// Primary Nav
+// =================================================================
+
+.menu-toggle {
+	text-transform: uppercase;
+	color: $brand_secondary;
+	text-decoration: none;
+	font-weight: 700;
+	float: right;
+	padding: 20px 2% 0 0;
+	&:before {
+		content:"";
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		position: relative;
+		top: 2px;
+		right: 5px;
+		background-size: 16px;
+	}
+}
+
+.menu-toggle {
+
+	&:hover {
+		background: none;
+	}
+}
+
+.small-menu {
+
+	@include media($desktop) {
+		display: none;
+	}
+	//Style inside of menu
+	nav.primary .menu {
+		padding: 0;
+		margin: 0;
+		background: $brand_tertiary;
+		.menu-item {
+			list-style: none;
+			a {
+				text-transform: uppercase;
+				font-size: rem(16px);
+				padding: 20px;
+				display: block;
+				color: $reverse_text_color;
+			}
+		&:last-child {
+			border-bottom: none;
+		}
+		}
+	}
+
+}
+
+
+
+.large-menu nav.primary {
+	background: $brand_tertiary;
+	display: none;
+	@include media($desktop) {
+		display: block;
+	}
+	.menu {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		@include display(flex);
+		@include align-items(center);
+		padding: 20px;
+	}
+	.menu-item {
+		display: inline-block;
+		@include flex(1);
+		text-align: center;
+	}
+	a {
+		color: $reverse_text_color;
+		font-family: $header_font_family;
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+}
+
+// Footer Nav
+// =================================================================
+nav.footer {}
+
+
+// Utility Nav
+// =================================================================
+nav.utility {}
+
+
+// Social Nav
+// =================================================================
+
+nav.social { 
+	@include span-columns(12);
+	@include omega;
+	padding: 5px 0 20px;
+	@include media($tablet) {
+		@include span-columns(6);
+		float: right;	
+		padding: 0;
+	}
+	.menu {
+		margin: 0;
+		padding: 0;
+		@include media($desktop) {
+			float: right;
+		}
+	}
+	.menu-item {
+		display: inline-block;
+		list-style: none;
+		margin: 0 10px;
+		&:last-child {
+			margin-right: 0;
+		}
+		a {
+			background-size: 100%;	
+			@include hide-text;
+			width: 37px;
+			height: 37px;
+			display: block;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		&.twitter a {
+		background-image: url('../img/i_twitter.png');
+		}	
+		&.instagram a {
+			background-image: url('../img/i_instagram.png');
+		}
+		&.facebook a {
+			background-image: url('../img/i_facebook.png');
+		}		
+	
+	}	
+}
+
+// Breadcrumbs
+// =================================================================
+.breadcrumbs {
+	padding-top: 20px;
+
+}
+
+
+// Pagination
+// =================================================================
+.pagination {
+	.menu {
+		padding: 20px 0;
+		list-style: none;
+		text-align: center;
+	}
+	.menu li {
+		display: inline-block;
+	}
+}
