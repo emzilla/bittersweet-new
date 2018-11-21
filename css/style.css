@@ -168,12 +168,12 @@ table {
   border-spacing: 0; }
 
 html, body {
-  font-family: "nixieone", Helvetica, Arial, sans-serif;
+  font-family: itc-american-typewriter, "nixieone", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   color: #ebe6e3;
   line-height: 1.7;
   letter-spacing: 0.07812rem;
-  font-weight: 400; }
+  font-weight: 500; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
@@ -198,6 +198,9 @@ h4 {
 
 p.small {
   font-size: 0.8125rem; }
+
+strong {
+  font-weight: 700; }
 
 a {
   color: #b7dbba;
@@ -296,10 +299,6 @@ body {
     .content-wrapper {
       max-width: 920px;
       margin: 0 auto; } }
-
-::-moz-selection {
-  background: #ebe6e3;
-  color: #212422; }
 
 ::selection {
   background: #ebe6e3;
@@ -965,7 +964,7 @@ table tbody tr:nth-child(odd) {
     cursor: pointer;
     background: #333;
     /* IE8 "hack" for nested featherlights */
-    background: transparent; }
+    background: rgba(0, 0, 0, 0); }
   /* support for nested featherlights. Does not work in IE8 (use JS to fix) */
   .featherlight:last-of-type {
     background: rgba(0, 0, 0, 0.8); }
@@ -1064,7 +1063,7 @@ table tbody tr:nth-child(odd) {
     -ms-user-select: none;
     user-select: none;
     /* IE9 hack, otherwise navigation doesn't appear */
-    background: transparent; }
+    background: rgba(0, 0, 0, 0); }
   .featherlight-previous {
     left: 25px;
     right: 80%; }

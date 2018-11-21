@@ -54,7 +54,9 @@ p {
 		font-size: rem(13px);
 	}
 }
-strong {}
+strong {
+	font-weight: $paragraph_font_strong_weight;
+}
 
 
 // Links

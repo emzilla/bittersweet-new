@@ -103,8 +103,9 @@
 
 	// Paragraphs
 	//--------------------------------------------------------------*/
-	$paragraph_font_family: 'nixieone', Helvetica, Arial, sans-serif;
-	$paragraph_font_weight: 400;
+	$paragraph_font_family: itc-american-typewriter, 'nixieone', Helvetica, Arial, sans-serif;
+	$paragraph_font_weight: 500;
+	$paragraph_font_strong_weight: 700;
 	$paragraph_font_size: $base_font_size;
 	$paragraph_line_height: $base_line_height;
 	$paragraph_margin_bottom: 20px;
