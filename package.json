@@ -6,19 +6,15 @@
   "version": "1.0.0",
   "license": "CC BY-NC-ND",
   "devDependencies": {
-    "bower": "~1.8.2",
     "gulp": "~3.9",
-    "gulp-sass": "~3.2.1",
     "gulp-autoprefixer": "5.0.0",
-    "gulp-uglify": "~0.2.1",
     "gulp-concat": "~2.6.1",
-    "gulp-util": "^3.0.8",
     "gulp-imagemin": "~4.1.0",
     "gulp-newer": "~1.4.0",
+    "gulp-notify": "~3.2.0",
     "gulp-plumber": "~1.2.0",
-    "gulp-notify": "~3.2.0"
-  },
-  "scripts": {
-    "postinstall": "node_modules/.bin/bower install"
+    "gulp-sass": "~3.2.1",
+    "gulp-uglify": "~0.2.1",
+    "gulp-util": "^3.0.8"
   }
 }
