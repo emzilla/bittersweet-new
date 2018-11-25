@@ -5,6 +5,10 @@
 
 // Content
 // =================================================================
+.content {
+	@include clearfix;
+}
+
 .content-wrapper {
 	padding: 0 5%;
 	transition: all .5s ease;	

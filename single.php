@@ -11,6 +11,7 @@ get_header(); ?>
 
 <main id="main" class="site-main" role="main">
 	<div class="content-wrapper">
+		<?php get_template_part( 'breadcrumbs' ); ?>
 
 		<?php
 		// Start the loop.
