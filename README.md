@@ -1,2 +1,3 @@
-# newtheme
-My base theme for wordpress
+# Bittersweet Wordpress Theme
+
+Custom theme for BittersweetRaleigh.com
