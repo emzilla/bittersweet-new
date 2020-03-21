@@ -15,24 +15,27 @@
 // =================================================================
 
 .hero {
-   @include media($desktop) {
-        background: url('../img/bg_hero.jpg') no-repeat center;
-        background-size: cover;
-   }
+//    @include media($desktop) {
+//         background: url('../img/bg_hero.jpg') no-repeat center;
+//         background-size: cover;
+//    }
+    .content-wrapper {
+        max-width: 1200px;
+    }
+
    .hero-content {
-        margin: 0 20px;
-        padding: 10px;
+        margin: 20px 0 0;
+        padding: 20px 40px;
         background-color: $brand_tertiary;
         color: $reverse_text_color;
-        @include media($tablet) {
-           padding: 50px;  
-        }
+
         @include media($desktop) {            
-            margin: 450px auto 60px;
+            margin: 100px 0 0;
+            padding: 50px 120px;
 
         }
 
-        h1, h2 {
+        h1, h2, h3 {
             color: $reverse_text_color;
         }
         h1 {
@@ -47,12 +50,80 @@
                 font-size: rem(22px);
             }
         }
+
+        h3 {
+            font-size: rem(16px);
+            @include media($tablet) {
+                font-size: rem(18px);
+            }
+        }
+
         a {
             color: $reverse_text_color;
             text-decoration: underline;
         }
    }
 }
+
+.hero-menu-title {
+    text-align: center;
+}
+
+.hero-menu-subtitle {
+    p {
+        margin: 0 0 12px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+.hero-menu-content-section {
+    margin-top: 30px;
+}
+
+.hero-menu-content {
+
+    .hero-menu-section-title {
+        margin: 0 0 12px;
+        text-align: center;
+
+        &::before,
+        &::after {
+            display: inline-block;
+            position: relative;
+            content: "—";
+        }
+    }
+
+    .hero-menu-section-subtitle {
+        margin: 20px 0 12px;
+    }
+
+    h3.hero-menu-section-subtitle {
+        font-weight: $paragraph_font_strong_weight;
+        margin: 0 0 12px;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.hero-menu-item {
+    margin-bottom: 12px;
+
+    .hero-menu-item-title {
+        line-height: 1.2;
+    }
+
+    .hero-menu-item-description {
+        line-height: 1.2;
+    }
+}
+
+
+
+
 
 // Homepage Content
 // =================================================================
