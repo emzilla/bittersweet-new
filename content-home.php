@@ -16,17 +16,14 @@
 } ?>
 <section class="hero">
 	<div class="content-wrapper group">
-		<div class="hero-content">
-			<?php echo $feature_content; ?>
-		</div>
+			<?php // echo $feature_content; ?>
 		<div class="hero-content">	
 			<h1 class="hero-menu-title">BITTERSWEET Take Out Menu</h1>
 			<div class="hero-menu-subtitle">
-				<p><strong>OUR TO-GO WINDOW WILL BE OPEN DAILY 11AM-7PM</strong></p>
-				<p>CALL AHEAD TO ORDER AND PAY: <a href="tel:919.977.3829"></a>919.977.3829</p>
-				<p>SORRY, NO CASH PAYMENTS RIGHT NOW, CREDIT CARDS AND APPLE-PAY</p>
-				<p>WE CAN TAKE PAYMENTS OVER THE PHONE IF YOU WANT TO JUST PICK UP</p> 
-				<p>PARKING IS AVAILABLE FOR CURBSIDE PICK UP RIGHT IN FRONT OF OUR BUSINESS</p>
+			<p><strong>OUR TO-GO WINDOW WILL BE OPEN DAILY 11AM-7PM</strong></p>
+			<p>ORDERING AND PAYMENT CAN BE DONE BY PHONE: <a href="tel:919.977.3829">919.977.3829</a> OR IN PERSON</p>
+			<p>WE ARE CURRENTLY ONLY ACCEPTING CREDIT CARDS AND APPLE-PAY</p>
+			<p>PARKING IS AVAILABLE FOR CURBSIDE PICK-UP RIGHT IN FRONT OF OUR BUSINESS</p>
 			</div>
 			<div class="hero-menu-content">
 				<section class="hero-menu-content-section">
@@ -68,11 +65,6 @@
 								<p class="hero-menu-item-title"><strong>Quiche-of-the-day</strong>  $7</p>
 								<p class="hero-menu-item-description">(we will post daily flavors on our Instagram and FB stories/feed)</p>
 							</div>
-
-					<div class="hero-menu-item">
-						<p class="hero-menu-item-title"><strong>Affogato al caffe</strong> $5</p>
-						<p class="hero-menu-item-description">shot of espresso, vanilla ice cream </p>
-					</div>
 				</section>
 				<section class="hero-menu-content-section">
 					<h1 class="hero-menu-section-title">Specials</h1>
