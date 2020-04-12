@@ -20,7 +20,8 @@
 		<div class="hero-content">	
 			<h1 class="hero-menu-title">BITTERSWEET Take Out Menu</h1>
 			<div class="hero-menu-subtitle">
-			<p><strong>OUR TO-GO WINDOW WILL BE OPEN DAILY 11AM-7PM</strong></p>
+			<p><strong>OUR TO-GO WINDOW WILL BE OPEN TUES-SUN 11AM-7PM</strong></p>
+			<p>Closed Mondays</p>
 			<p>ORDERING AND PAYMENT CAN BE DONE BY PHONE: <a href="tel:919.977.3829">919.977.3829</a> OR IN PERSON</p>
 			<p>WE ARE CURRENTLY ONLY ACCEPTING CREDIT CARDS AND APPLE-PAY</p>
 			<p>PARKING IS AVAILABLE FOR CURBSIDE PICK-UP RIGHT IN FRONT OF OUR BUSINESS</p>
@@ -62,9 +63,13 @@
 						</div>
 
 						<div class="hero-menu-item">
-								<p class="hero-menu-item-title"><strong>Quiche-of-the-day</strong>  $7</p>
-								<p class="hero-menu-item-description">(we will post daily flavors on our Instagram and FB stories/feed)</p>
-							</div>
+							<p class="hero-menu-item-title"><strong>Quiche-of-the-day</strong>  $7</p>
+							<p class="hero-menu-item-description">(we will post daily flavors on our Instagram and FB stories/feed)</p>
+						</div>
+
+						<div class="hero-menu-item">
+							<p class="hero-menu-item-title"><strong>Quart of raw cookie dough</strong> <em>(enough to bake 16 cookies)</em> $10</p>
+						</div>
 				</section>
 				<section class="hero-menu-content-section">
 					<h1 class="hero-menu-section-title">Specials</h1>
@@ -149,7 +154,6 @@
 
 					<div class="hero-menu-item">
 					<p class="hero-menu-item-title"><strong>Almond milk</strong> 12oz--$2</p>
-					<p class="hero-menu-item-description">chilled espresso, bitters, ginger beer</p>
 					</div>
 
 					<div class="hero-menu-item">
@@ -200,9 +204,15 @@
 					<p class="hero-menu-item-title"><strong>Fullsteam Coffee is for Closers</strong> <em>(12oz can)</em> $5</p></div>
 
 					<h2 class="hero-menu-section-subtitle">Wine</h2>
+					<div class="hero-menu-item">
+						<p class="hero-menu-item-title"><strong>All full bottles of wine are now 30% off the prices listed below</strong></p>
+					</div>
 
 					<h3 class="hero-menu-section-subtitle">Bubbles</h3>
 
+					<div class="hero-menu-item">
+						<p class="hero-menu-item-title"><strong>Champagne Splits</strong> <em>rosé, brut and moscato </em> $11</p>
+					</div>
 					<div class="hero-menu-item">
 						<p class="hero-menu-item-title"><strong>Col Solivo Prosecco DOC bottle</strong> $40</p>
 					</div>
