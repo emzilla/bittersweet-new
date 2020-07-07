@@ -385,6 +385,7 @@ body {
     clear: both; }
   @media screen and (min-width: 768px) {
     .site-footer {
+      margin-top: 100px;
       text-align: left; } }
   .site-footer .footer-border {
     border-top: 1px solid #c0d9c9; }

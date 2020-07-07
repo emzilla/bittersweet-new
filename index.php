@@ -17,9 +17,12 @@
 get_header(); ?>
 
 		<main id="main" class="site-main" role="main">
-			<div class="home-content">
-		<?php get_template_part( 'content', 'home' ); ?>	
-			</div>
+			<?php
+			// Start the loop.
+			while ( have_posts() ) : the_post();
+			// End the loop.
+			endwhile;
+			?>
 
 		</main><!-- .site-main -->
 
