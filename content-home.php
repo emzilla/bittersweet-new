@@ -20,11 +20,13 @@
 		<div class="hero-content">	
 			<h1 class="hero-menu-title">BITTERSWEET Take Out Menu</h1>
 			<div class="hero-menu-subtitle">
-			<p><strong>OUR TO-GO WINDOW WILL BE OPEN TUES-SUN 11AM-7PM</strong></p>
-			<p>Closed Mondays</p>
-			<p>ORDERING AND PAYMENT CAN BE DONE BY PHONE: <a href="tel:919.977.3829">919.977.3829</a> OR IN PERSON</p>
-			<p>WE ARE CURRENTLY ONLY ACCEPTING CREDIT CARDS AND APPLE-PAY</p>
-			<p>PARKING IS AVAILABLE FOR CURBSIDE PICK-UP RIGHT IN FRONT OF OUR BUSINESS</p>
+				<p><strong>OUR TO-GO WINDOW WILL BE OPEN TUES-SUN 2PM - 7PM</strong></p>
+				<p>Closed Mondays</p>
+				<p>ORDER AND PAY ONLINE BELOW</p>
+				<a href="https://bittersweetraleigh.square.site" class="button" target="_blank">Order Online</a>
+				<p>ORDER BY PHONE: <a href="tel:919-977-3829">919.977.3829</a> OR IN PERSON</p>
+				<p>WE ARE CURRENTLY ONLY ACCEPTING CREDIT CARDS AND APPLE-PAY</p>
+				<p>PARKING IS AVAILABLE FOR CURBSIDE PICK-UP RIGHT IN FRONT OF OUR BUSINESS</p>
 			</div>
 			<div class="hero-menu-content">
 				<section class="hero-menu-content-section">
@@ -37,51 +39,47 @@
 						<p class="hero-menu-item-title"><strong>Cheesecake slice</strong> $10</p>
 						<p class="hero-menu-item-description">Available plain or with salty caramel sauce, chocolate sauce or both</p>
 					</div>
-
-					<div class="hero-menu-item">
-						<p class="hero-menu-item-title"><strong>Raspberry Mousse</strong> <em>(gluten-free)</em> $9</p>
-						<p class="hero-menu-item-description">dark chocolate and raspberry mousse topped with house-made Chambord-spiked whipped cream</p>
-					</div>
-
 					<div class="hero-menu-item">
 						<p class="hero-menu-item-title"><strong>Salty Chipwich Ice Cream Sandwich</strong> $9</p>
 						<p class="hero-menu-item-description">chocolate-chip sea salt cookies, vanilla ice cream, rolled in bourbon caramel corn</p>
 					</div>
-
 					<div class="hero-menu-item">
 						<p class="hero-menu-item-title"><strong>Cinnamon-Carrot cupcakes</strong> $3.50 each, $18 for six</p>
 						<p class="hero-menu-item-description">(no nuts, raisins or funny stuff, just organic carrots)</p>
 					</div>
-
 					<div class="hero-menu-item">
 						<p class="hero-menu-item-title"><strong>Chocolate Chip Sea Salt cookies</strong> $2.50 each, $12 for six</p>
 					</div>
+					<div class="hero-menu-item">
+						<p class="hero-menu-item-title"><strong>Quiche-of-the-day</strong>  $7</p>
+						<p class="hero-menu-item-description">(we will post daily flavors on our Instagram and FB stories/feed)</p>
+					</div>
 
 					<div class="hero-menu-item">
-							<p class="hero-menu-item-title"><strong>Scone-of-the-day</strong>  $2.75</p>
-							<p class="hero-menu-item-description">(call ahead or check our social media for flavors or just order and be surprised!)</p>
-						</div>
-
-						<div class="hero-menu-item">
-							<p class="hero-menu-item-title"><strong>Quiche-of-the-day</strong>  $7</p>
-							<p class="hero-menu-item-description">(we will post daily flavors on our Instagram and FB stories/feed)</p>
-						</div>
-
-						<div class="hero-menu-item">
-							<p class="hero-menu-item-title"><strong>Quart of raw cookie dough</strong> <em>(enough to bake 16 cookies)</em> $10</p>
-						</div>
+						<p class="hero-menu-item-title"><strong>Quart of raw cookie dough</strong> <em>(enough to bake 16 cookies)</em> $10</p>
+					</div>
 				</section>
 				<section class="hero-menu-content-section">
 					<h1 class="hero-menu-section-title">Specials</h1>
 
 					<div class="hero-menu-item">
-						<p class="hero-menu-item-title"><strong>WEDNESDAY!! HOUSE MADE POP TARTS</strong> $4.50</p>
+						<p class="hero-menu-item-title"><strong>TUESDAY!! TIKI TUESDAY COCKTAIL MIX!</strong> $20</p>
+						<p class="hero-menu-item-description">Fresh and fruity cocktail mix that changes each Tuesday. $20 for enough for six cocktails, you add the booze. Also great as a mocktail!</p>
+					</div>
+
+					<div class="hero-menu-item">
+						<p class="hero-menu-item-title"><strong>WEDNESDAY!! HOUSE MADE POP TARTS!</strong> $4.50</p>
 						<p class="hero-menu-item-description">Check out our social media for flavor, or just let us surprise you!</p>
 					</div>
 
 					<div class="hero-menu-item">
 						<p class="hero-menu-item-title"><strong>THURSDAY!! BUBBLES AND CAKE!</strong> $11</p>
 						<p class="hero-menu-item-description">We will post the cupcake flavor on our Instagram and FB stories/feed, get cupcake and a mini champagne bottle to-go</p>
+					</div>
+
+					<div class="hero-menu-item">
+						<p class="hero-menu-item-title"><strong>FRIDAY!! NEW WEEKLY COCKTAIL MIX!</strong></p>
+						<p class="hero-menu-item-description">Each Friday we drop a new cocktail mix available for a week—check our social media feeds for what type of mix we are offering!</p>
 					</div>
 
 					<div class="hero-menu-item">

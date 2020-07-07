@@ -412,8 +412,11 @@ body {
   color: #212422;
   text-align: center; }
   .alert .alert-content {
-    font-size: 20px;
-    padding: 12px; }
+    padding: 12px;
+    font-size: 1.0625rem; }
+    @media screen and (min-width: 768px) {
+      .alert .alert-content {
+        font-size: 1.25rem; } }
     .alert .alert-content a {
       color: #212422;
       text-decoration: underline; }
@@ -620,8 +623,7 @@ body .featherlight .featherlight-content {
   max-width: 1200px; }
 
 .hero .hero-content {
-  margin: 20px 0 0;
-  padding: 20px 40px;
+  padding: 20px;
   background-color: #afd7b2;
   color: #212422; }
   @media screen and (min-width: 1000px) {
@@ -631,31 +633,42 @@ body .featherlight .featherlight-content {
   .hero .hero-content h1, .hero .hero-content h2, .hero .hero-content h3 {
     color: #212422; }
   .hero .hero-content h1 {
-    font-size: 1.25rem; }
+    font-size: 1.125rem; }
     @media screen and (min-width: 768px) {
       .hero .hero-content h1 {
         font-size: 1.75rem; } }
   .hero .hero-content h2 {
-    font-size: 1.125rem; }
+    font-size: 1rem; }
     @media screen and (min-width: 768px) {
       .hero .hero-content h2 {
         font-size: 1.375rem; } }
   .hero .hero-content h3 {
-    font-size: 1rem; }
+    font-size: 0.875rem; }
     @media screen and (min-width: 768px) {
       .hero .hero-content h3 {
         font-size: 1.125rem; } }
-  .hero .hero-content a {
+  .hero .hero-content a:not(.button) {
     color: #212422;
     text-decoration: underline; }
+  .hero .hero-content .button {
+    display: inline-block;
+    margin: 15px auto 30px;
+    padding: 15px 40px;
+    font-size: 1.45rem;
+    background: #5e68b0;
+    color: #ebe6e3; }
 
 .hero-menu-title {
   text-align: center; }
 
-.hero-menu-subtitle p {
-  margin: 0 0 12px;
-  text-align: center;
-  font-size: 18px; }
+.hero-menu-subtitle {
+  text-align: center; }
+  .hero-menu-subtitle p {
+    margin: 0 0 6px;
+    font-size: 1rem; }
+    @media screen and (min-width: 768px) {
+      .hero-menu-subtitle p {
+        font-size: 1.125rem; } }
 
 .hero-menu-content-section {
   margin-top: 30px; }
