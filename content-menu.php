@@ -36,11 +36,6 @@
 				<a href="/menu/coffee" class="button cta-text">Evening Coffee</a>
 			</div>
 		</div>
-		<div class="menu-row">
-			<div class="menu-category morning">
-				<a href="/menu/morning" class="button cta-text">Morning</a>
-			</div>
-		</div>
 
 
 	</div><!-- .entry-content -->
