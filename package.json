@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "license": "CC BY-NC-ND",
   "devDependencies": {
-    "gulp": "~3.9",
+    "gulp": "~4.0",
     "gulp-autoprefixer": "5.0.0",
     "gulp-concat": "~2.6.1",
     "gulp-imagemin": "~4.1.0",
